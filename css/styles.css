@@ -1,0 +1,193 @@
+   /* Body */
+body {
+    font-family:'Roboto',
+        sans-serif;
+        color: var(--NAVY-BLUE, #434455);
+        background-color: #FFF;
+}
+button {
+    cursor: pointer;
+}
+
+/* header-logo */
+
+
+.menu {
+    list-style-type: none;
+}
+
+.logo {color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway",
+        sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+text-decoration: none;}
+    
+
+.text-logo {color: var(--NAVY-BLUE, #2E2F42);}
+
+    /* menu */
+
+
+    .menu-item-link {color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    text-decoration: none;}
+
+
+        .menu-item-link {text-decoration: none;}
+                .menu-item-link:hover,
+                .menu-item-link:focus {
+                    color: #404BBF;
+                }
+
+        /* address */
+
+.address-data {color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+text-decoration: none;
+
+}
+.address-data:hover, .address-data:focus {color:#404BBF; }
+.address {font-style: normal;}
+.address-dots{list-style-type: none;}
+/* button */
+
+.backcolor {background-color: #2E2F42;
+}
+.solution {color: var(--WHITE, #FFF);
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;}
+
+    .button-ord {background:#4D5AE5;
+    color: var(--WHITE, #FFF);
+        font-family: "Roboto",
+            sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+    }
+
+    .button-ord:hover, .button-ord:focus {background: #404BBF;
+    color: var(--WHITE, #FFF);
+    font-family: "Roboto",
+            sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;}
+
+        /* description */
+.titles-menu{
+                color: var(--NAVY-BLUE, #2E2F42);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.2;
+                letter-spacing: 0.02em;}
+        .paragraf {
+            color: var(--SLATE, #434455);
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+        }
+
+/* our team */
+
+        .our-sec {
+            background-color: #F4F4FD
+        }
+        .team-title {
+            color: var(--NAVY-BLUE, #2E2F42);
+                text-align: center;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.11;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+                
+        }
+        .menu-items{list-style-type: none;}
+.items { 
+    background-color: #FFFFFF
+}
+
+/* PORTFOLIO */
+
+.sec-block{
+    background: #FFF;
+}
+.our-port {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.title-port {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+
+/* FOOTER */
+
+
+.bck-col {
+background: var(--NAVY-BLUE, #2E2F42);}
+.txt-logo {
+color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.par-foot {
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
