@@ -10,10 +10,19 @@ body {
 button {
     cursor: pointer;
 }
+h1,h2,h3,h4,h5,h6,p {margin-top:0; margin-bottom:0;}
+ul, ol {margin-top: 0; margin-bottom: 0; padding-left: 0;}
 a {text-decoration: none;}
 ul {list-style-type: none;}
+img {display: block;}
 
 /* header-logo */
+
+.container{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .logo {color: #4D5AE5;
     font-family: "Raleway",sans-serif;
@@ -77,6 +86,18 @@ ul {list-style-type: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
         }
+.hide-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }        
 
 /* our team */
 
