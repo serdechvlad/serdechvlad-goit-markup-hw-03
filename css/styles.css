@@ -31,7 +31,9 @@ img {display: block;}
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
-    padding-right: 15px;}
+    padding-right: 15px;
+display: flex;
+justify-content: space-between}
   
 
 .logo {color: #4D5AE5;
@@ -46,7 +48,7 @@ img {display: block;}
 .text-logo {color:  #2E2F42;}
 .header-top {
     display: flex;
-    justify-content: space-between;
+
     border-bottom: 1px solid #E7E9FC
     }
 
