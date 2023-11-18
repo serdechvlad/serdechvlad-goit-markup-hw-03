@@ -138,7 +138,15 @@ gap: 40px;}
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}        
+}  
+.menu {
+    display:flex;
+    column-gap:24px;
+}
+.pads {
+    flex-basis: calc((100% - 72px) / 4)
+}
+
 
 /* our team */
 
@@ -194,3 +202,4 @@ gap: 40px;}
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;} 
+
