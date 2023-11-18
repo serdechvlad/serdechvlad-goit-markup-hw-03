@@ -24,6 +24,11 @@ ul {
 }
 img {display: block;}
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* header-logo */
 
 .container{
@@ -77,7 +82,7 @@ gap: 40px;}
 
 /* button */
 
-.backcolor {background-color: #2E2F42; padding: 188px 0;
+.backcolor-bc {background-color: #2E2F42; padding: 188px 0;
 }
 .solution {color: #FFF;
     font-size: 56px;
