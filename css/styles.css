@@ -5,24 +5,34 @@ body {
     color:  #434455;
     background-color: #FFF;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 }
 button {
     cursor: pointer;
 }
-h1,h2,h3,h4,h5,h6,p {margin-top:0; margin-bottom:0;}
-ul, ol {margin-top: 0; margin-bottom: 0; padding-left: 0;}
-a {text-decoration: none;}
-ul {list-style-type: none;}
+h1,h2,h3,h4,h5,h6,p {
+    margin-top:0; margin-bottom:0;}
+ul, ol {
+    margin-top: 0; margin-bottom: 0; padding-left: 0;}
+a {
+    text-decoration: none; font-style: normal;
+    color: currentColor;}
+ul {
+    list-style-type: none;
+}
 img {display: block;}
 
 /* header-logo */
 
 .container{
-    width: 1440px;
+    width: 1158px;
     margin-right: auto;
     margin-left: auto;
-}
+    padding-left: 15px;
+    padding-right: 15px;}
+  
 
 .logo {color: #4D5AE5;
     font-family: "Raleway",sans-serif;
@@ -34,14 +44,39 @@ img {display: block;}
     
 
 .text-logo {color:  #2E2F42;}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E7E9FC
+    }
+
 
     /* menu */
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+            
+        }
+    
+.menu-header {
+    display: flex;
+    column-gap: 40px;
+    margin-left: 76px;
+        }
 
 .menu-item-link {color:  #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    }
+    
+    display: block;
+    color: #2E2F42;
+    font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 24px;
+        }
+    
 
 .menu-item-link:hover,
 .menu-item-link:focus, .address-data:hover, .address-data:focus {color: #404BBF;}
@@ -49,10 +84,15 @@ img {display: block;}
         /* address */
 
 .address-data {color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;   
 }
-.address {font-style: normal;}
+.address-dots {
+    display: flex;
+column-gap: 40px;}
+.address {font-style: normal;
+    display: flex; }
 
 /* button */
 
@@ -97,7 +137,7 @@ img {display: block;}
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
- }        
+}        
 
 /* our team */
 
@@ -152,5 +192,4 @@ img {display: block;}
 .par-foot {
     color: #F4F4FD;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+    letter-spacing: 0.02em;} 
