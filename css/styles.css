@@ -57,7 +57,12 @@ justify-content: space-between}
             
             .menu-header {display:flex;
             gap: 40px;
-            }
+             }
+                         .menu-item {display: block;
+                            color: #2E2F42;
+                            font-weight: 500;
+                            padding-top: 24px;
+                            padding-bottom: 24px;}
             .nav-menu {display:flex;
                 align-items: center;
             column-gap: 40px;}
