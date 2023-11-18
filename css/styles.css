@@ -71,7 +71,7 @@ justify-content: space-between}
 }
 .address-dots {
     display: flex;
-column-gap: 40px;}
+gap: 40px;}
 .address {font-style: normal;
     display: flex; }
 
