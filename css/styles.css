@@ -42,11 +42,12 @@ justify-content: space-between}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     }
     
 
 .text-logo {color:  #2E2F42;}
-.header-top {
+.header-top {width: 1158px;
     display: flex;
 
     border-bottom: 1px solid #E7E9FC
