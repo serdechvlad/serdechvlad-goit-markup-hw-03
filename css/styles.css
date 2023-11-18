@@ -34,48 +34,10 @@ img {display: block;}
     padding-right: 15px;
 display: flex;
 justify-content: space-between}
-  
-
 .logo {color: #4D5AE5;
     font-family: "Raleway",sans-serif;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    }
-    
-
-.text-logo {color:  #2E2F42;}
-.header-top {
-    display: flex;
-
-    border-bottom: 1px solid #E7E9FC
-    }
-
-
-    /* menu */
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-            
-        }
-    
-.menu-header {
-    display: flex;
-    column-gap: 40px;
-    margin-right: 76px;
-        }
-
-.menu-item-link {color:  #2E2F42;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    
-    display: block;
-    color: #2E2F42;
-    font-weight: 500;
-    padding-top: 24px;
     padding-bottom: 24px;
         }
     
