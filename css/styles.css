@@ -32,14 +32,27 @@ img {display: block;}
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-display: flex;
+
 justify-content: space-between}
 .logo {color: #4D5AE5;
-    font-family: "Raleway",sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.17;
-    padding-bottom: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
         }
+        .text-logo {color: #2E2F42;}
+        .header-top { display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #E7E9FC}
+            .menu-header {display:flex;
+            gap: 40px;
+            }
+            .nav-menu {display:flex;
+            display: flex;
+                align-items: center;
+            column-gap: 40px;}
     
 
 .menu-item-link:hover,
