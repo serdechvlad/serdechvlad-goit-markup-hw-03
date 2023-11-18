@@ -88,7 +88,12 @@ gap: 40px;}
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;}
+    text-align: center;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
 
 .button-ord {background:#4D5AE5;
     color: #FFF;
