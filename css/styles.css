@@ -231,7 +231,10 @@ padding: 32px 16px;
 /* FOOTER */
 
 .bck-col {
-    background:#2E2F42;}
+    background:#2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .txt-logo {
     color: #F4F4FD;
     font-family: Raleway;
