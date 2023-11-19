@@ -38,8 +38,7 @@ img {display: block;}
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-
-justify-content: space-between}
+    justify-content: space-between}
 .logo {color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -82,7 +81,7 @@ justify-content: space-between}
 }
 .address-dots {
     display: flex;
-gap: 40px;}
+    gap: 40px;}
 .address {font-style: normal;
     display: flex; }
 
@@ -118,7 +117,7 @@ gap: 40px;}
 
     }
 
-.button-ord:hover, .button-ord:focus {background: #404BBF;
+.button-ord:hover, .button-ord:focus {   background: #404BBF;
     color: #FFF;}
 
         /* description */ 
@@ -169,10 +168,17 @@ gap: 40px;}
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    margin-bottom: 72px; }
 .items-list { 
     background-color: #FFFFFF
 }
+.items-list:last-child { margin-right: 0;}
+.menu-items {
+    display: flex;
+    gap:24px;
+}
+
 
 /* PORTFOLIO */
 
