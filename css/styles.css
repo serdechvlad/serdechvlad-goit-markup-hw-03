@@ -247,5 +247,6 @@ padding: 32px 16px;
 .par-foot {
     color: #F4F4FD;
     line-height: 1.5;
-    letter-spacing: 0.02em;} 
-
+    letter-spacing: 0.02em;
+    max-width: 264px} 
+.link-fut {margin-bottom: 16px;}
