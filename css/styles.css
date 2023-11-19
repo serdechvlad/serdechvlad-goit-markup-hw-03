@@ -150,8 +150,12 @@ gap: 40px;}
 .menu {
     display:flex;
     gap:24px;
+    
 }
-.menu .pads { flex-basis: calc((100% - 3 * 24px) / 4) }
+.items-menu {
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
+
 
 
 /* our team */
