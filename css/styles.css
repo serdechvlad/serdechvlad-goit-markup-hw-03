@@ -218,6 +218,8 @@ text-align: center;}
     flex-wrap: wrap;
     row-gap: 48px;
 }
+.port-list{width: calc((100% - 48px) / 3);
+    padding-left: 0;}
 
 /* FOOTER */
 
