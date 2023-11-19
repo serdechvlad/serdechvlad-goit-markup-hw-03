@@ -23,7 +23,9 @@ a {
 ul {
     list-style-type: none;
 }
-img {display: block;}
+img {display: block;
+max-width: 100%;
+    height: auto;}
 
 .section {
     padding-top: 120px;
@@ -203,6 +205,7 @@ text-align: center;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .title-port {
     color:  #2E2F42;
@@ -230,3 +233,4 @@ text-align: center;}
     line-height: 1.5;
     letter-spacing: 0.02em;} 
 
+.wrap {flex-wrap: wrap;}
