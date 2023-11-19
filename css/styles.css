@@ -254,4 +254,6 @@ padding: 32px 16px;
 .logo-marg {margin-bottom: 16px;
     display: inline-block;
 }
-
+.spanlog {color: #F4F4FD;
+    display: inline-block;
+}
